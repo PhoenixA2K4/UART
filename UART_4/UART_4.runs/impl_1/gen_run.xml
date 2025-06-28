@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1744908354">
+  <File Type="BITSTR-BMM" Name="FIle_combine_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="FIle_combine_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="FIle_combine_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="FIle_combine_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="FIle_combine.tcl"/>
+  <File Type="OPT-TIMING" Name="FIle_combine_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="FIle_combine_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="FIle_combine_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="FIle_combine_reports.tcl"/>
+  <File Type="OPT-DRC" Name="FIle_combine_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="FIle_combine.hwdef"/>
+  <File Type="PWROPT-DCP" Name="FIle_combine_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="FIle_combine_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="FIle_combine_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="FIle_combine_placed.dcp"/>
+  <File Type="PLACE-IO" Name="FIle_combine_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="FIle_combine_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="FIle_combine_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="FIle_combine_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="FIle_combine_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="FIle_combine_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="FIle_combine_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="FIle_combine_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="FIle_combine_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="FIle_combine.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="FIle_combine_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="FIle_combine_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="FIle_combine_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="FIle_combine.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="FIle_combine_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="FIle_combine_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="FIle_combine_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="FIle_combine_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="FIle_combine_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="FIle_combine_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="FIle_combine_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="FIle_combine.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="FIle_combine_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="FIle_combine_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="FIle_combine_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="FIle_combine_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="FIle_combine_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="FIle_combine_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="FIle_combine_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="FIle_combine_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="FIle_combine_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="FIle_combine_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="FIle_combine_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="FIle_combine_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="FIle_combine_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="FIle_combine_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="FIle_combine_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="FIle_combine_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="FIle_combine_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="FIle_combine_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="FIle_combine_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="FIle_combine_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="FIle_combine_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="FIle_combine.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="FIle_combine_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="FIle_combine.rbt"/>
+  <File Type="BITSTR-NKY" Name="FIle_combine.nky"/>
+  <File Type="PDI-FILE" Name="FIle_combine.pdi"/>
+  <File Type="RCFI_FILE" Name="FIle_combine.rcfi"/>
+  <File Type="CFI_FILE" Name="FIle_combine.cfi"/>
+  <File Type="RNPI_FILE" Name="FIle_combine.rnpi"/>
+  <File Type="NPI_FILE" Name="FIle_combine.npi"/>
+  <File Type="RBD_FILE" Name="FIle_combine.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="FIle_combine.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="FIle_combine.sysdef"/>
+  <File Type="BG-BGN" Name="FIle_combine.bgn"/>
+  <File Type="BG-DRC" Name="FIle_combine.drc"/>
+  <File Type="RDI-RDI" Name="FIle_combine.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/UART_rx.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Registor.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debounce.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tx_UART.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FIle_combine.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="FIle_combine"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/UART_4.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/UART_4.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

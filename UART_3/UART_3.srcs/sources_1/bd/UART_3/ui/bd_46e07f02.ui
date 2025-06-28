@@ -1,0 +1,42 @@
+{
+   "ActiveEmotionalView":"No Loops",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-454,-634",
+   "ExpandedHierarchyInLayout":"",
+   "No Loops_ExpandedHierarchyInLayout":"",
+   "No Loops_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_0 -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port reset_0 -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace port button_0 -pg 1 -lvl 0 -x 0 -y 290 -defaultsOSRD
+preplace port RS232_A9_0 -pg 1 -lvl 0 -x 0 -y 250 -defaultsOSRD
+preplace port RS232_D10_0 -pg 1 -lvl 4 -x 760 -y 30 -defaultsOSRD
+preplace port CAT_0 -pg 1 -lvl 4 -x 760 -y 410 -defaultsOSRD
+preplace portBus led_0 -pg 1 -lvl 4 -x 760 -y 60 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 3 -x 650 -y 90 -swap {1 3 0 7 2 4 6 5} -defaultsOSRD -pinDir clk left -pinY clk 20L -pinBusDir probe0 left -pinBusY probe0 60L -pinBusDir probe1 left -pinBusY probe1 0L -pinBusDir probe2 left -pinBusY probe2 260L -pinBusDir probe3 left -pinBusY probe3 40L -pinBusDir probe4 left -pinBusY probe4 80L -pinBusDir probe5 left -pinBusY probe5 200L -pinBusDir probe6 left -pinBusY probe6 100L
+preplace inst vio_0 -pg 1 -lvl 1 -x 120 -y 190 -defaultsOSRD -pinDir clk left -pinY clk 0L -pinBusDir probe_out0 right -pinBusY probe_out0 0R
+preplace inst file_combine_0 -pg 1 -lvl 2 -x 410 -y 210 -swap {0 1 5 3 4 2 7 6} -defaultsOSRD -pinDir Clk left -pinY Clk 0L -pinDir reset left -pinY reset 20L -pinDir button left -pinY button 80L -pinDir RS232_A9 left -pinY RS232_A9 60L -pinDir RS232_D10 right -pinY RS232_D10 0R -pinBusDir data_in left -pinBusY data_in 40L -pinDir CAT right -pinY CAT 80R -pinBusDir led right -pinBusY led 20R
+preplace netloc vio_0_probe_out0 1 1 2 280 150 N
+preplace netloc clk_0_1 1 0 3 20J 110 260J 110 NJ
+preplace netloc reset_0_1 1 0 3 NJ 130 220J 130 N
+preplace netloc button_0_1 1 0 3 NJ 290 260J 350 N
+preplace netloc RS232_A9_0_1 1 0 3 NJ 250 240J 90 N
+preplace netloc file_combine_0_RS232_D10 1 2 2 560J 30 NJ
+preplace netloc file_combine_0_CAT 1 2 2 560J 410 NJ
+preplace netloc file_combine_0_led 1 2 2 540J 10 740J
+levelinfo -pg 1 0 120 410 650 760
+pagesize -pg 1 -db -bbox -sgen -130 0 900 430
+",
+   "No Loops_ScaleFactor":"1.25",
+   "No Loops_TopLeft":"-243,-99",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace inst ila_0 -pg 1 -lvl 3 -x 470 -y -320 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -x -110 -y -290 -defaultsOSRD
+preplace inst file_combine_0 -pg 1 -lvl 2 -x 170 -y -330 -defaultsOSRD
+preplace netloc vio_0_probe_out0 1 1 1 N -290
+levelinfo -pg 1 -250 -110 170 470 570
+pagesize -pg 1 -db -bbox -sgen -250 -510 570 140
+"
+}
+

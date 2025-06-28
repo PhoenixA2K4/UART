@@ -1,0 +1,233 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x64FA2DD5021EB3B3",
+      "device": "xc7a35ticsg324-1L",
+      "gen_directory": "../../../../UART_3.gen/sources_1/bd/UART_3",
+      "name": "UART_3",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ila_0": "",
+      "vio_0": "",
+      "file_combine_0": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "UART_3_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "button_0": {
+        "direction": "I"
+      },
+      "RS232_A9_0": {
+        "direction": "I"
+      },
+      "RS232_D10_0": {
+        "direction": "O"
+      },
+      "CAT_0": {
+        "direction": "O"
+      },
+      "led_0": {
+        "direction": "O",
+        "left": "6",
+        "right": "0"
+      }
+    },
+    "components": {
+      "ila_0": {
+        "vlnv": "xilinx.com:ip:ila:6.2",
+        "xci_name": "UART_3_ila_0_0",
+        "xci_path": "ip\\UART_3_ila_0_0\\UART_3_ila_0_0.xci",
+        "inst_hier_path": "ila_0",
+        "parameters": {
+          "C_ENABLE_ILA_AXI_MON": {
+            "value": "false"
+          },
+          "C_MONITOR_TYPE": {
+            "value": "Native"
+          },
+          "C_NUM_OF_PROBES": {
+            "value": "7"
+          },
+          "C_PROBE0_WIDTH": {
+            "value": "8"
+          },
+          "C_PROBE6_WIDTH": {
+            "value": "7"
+          }
+        }
+      },
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "UART_3_vio_0_0",
+        "xci_path": "ip\\UART_3_vio_0_0\\UART_3_vio_0_0.xci",
+        "inst_hier_path": "vio_0",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "0"
+          },
+          "C_PROBE_OUT0_WIDTH": {
+            "value": "8"
+          }
+        }
+      },
+      "file_combine_0": {
+        "vlnv": "xilinx.com:module_ref:file_combine:1.0",
+        "xci_name": "UART_3_file_combine_0_0",
+        "xci_path": "ip\\UART_3_file_combine_0_0\\UART_3_file_combine_0_0.xci",
+        "inst_hier_path": "file_combine_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "file_combine",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "UART_3_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "button": {
+            "direction": "I"
+          },
+          "RS232_A9": {
+            "direction": "I"
+          },
+          "RS232_D10": {
+            "direction": "O"
+          },
+          "data_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "CAT": {
+            "direction": "O"
+          },
+          "led": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "vio_0_probe_out0": {
+        "ports": [
+          "vio_0/probe_out0",
+          "file_combine_0/data_in",
+          "ila_0/probe0"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "ila_0/clk",
+          "vio_0/clk",
+          "file_combine_0/Clk"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset_0",
+          "file_combine_0/reset",
+          "ila_0/probe3"
+        ]
+      },
+      "button_0_1": {
+        "ports": [
+          "button_0",
+          "file_combine_0/button",
+          "ila_0/probe2"
+        ]
+      },
+      "RS232_A9_0_1": {
+        "ports": [
+          "RS232_A9_0",
+          "file_combine_0/RS232_A9",
+          "ila_0/probe1"
+        ]
+      },
+      "file_combine_0_RS232_D10": {
+        "ports": [
+          "file_combine_0/RS232_D10",
+          "RS232_D10_0",
+          "ila_0/probe4"
+        ]
+      },
+      "file_combine_0_CAT": {
+        "ports": [
+          "file_combine_0/CAT",
+          "CAT_0",
+          "ila_0/probe5"
+        ]
+      },
+      "file_combine_0_led": {
+        "ports": [
+          "file_combine_0/led",
+          "led_0",
+          "ila_0/probe6"
+        ]
+      }
+    }
+  }
+}
